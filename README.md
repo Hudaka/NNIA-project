@@ -1,5 +1,6 @@
-# Neural networks project
+# Neural Networks Project
 
-* Encode data using BERT
-* Train a model for POS
+
+* In this project the data is going to be encoded using BERT
+* We will be training a model for POS
  
