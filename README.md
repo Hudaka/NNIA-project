@@ -1,2 +1,5 @@
 # Neural networks project
-My new rep
+
+* Encode data using BERT
+* Train a model for POS
+ 
