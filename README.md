@@ -1,2 +1,2 @@
-# NN_project
+# Neural networks project
 My new rep
