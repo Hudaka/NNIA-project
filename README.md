@@ -5,6 +5,6 @@
 * We will be training a model for POS
  
 ## Table of Contents
-### Part 1: technical issues
-#### 1. Create a git repository for the project;
-#### 2. Set up the project: download libraries, create the environment
+1. Part 1: technical issues
+- 1. Create a git repository for the project;
+- 2. Set up the project: download libraries, create the environment
