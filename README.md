@@ -14,6 +14,6 @@
 - 3. Choose hyperparameters using *wandb*
 
 ## Table of contents
-* [General info](#general-info)
+* [Part I: Technical issues](#Part I: Technical issues)
 * [Technologies](#technologies)
 * [Setup](#setup)
