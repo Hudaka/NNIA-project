@@ -12,3 +12,8 @@
 - 1. Encode data using *BERT*
 - 2. Train a model for *POS*
 - 3. Choose hyperparameters using *wandb*
+
+## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Setup](#setup)
