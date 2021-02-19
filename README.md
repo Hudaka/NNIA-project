@@ -13,7 +13,4 @@
 - 2. Train a model for *POS*
 - 3. Choose hyperparameters using *wandb*
 
-## Table of contents
-* [Part I: Technical issues](#Part-I:-Technical-issues)
-* [Technologies](#technologies)
-* [Setup](#setup)
+
