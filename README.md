@@ -7,6 +7,7 @@
 **Part 1: Preprocessing data in CoNLL format**
 - Extract relevent information (POS tag);
 - Analyse: size , classes, balanced/imbalanced, lenth of sequences
+
 **Part 2: Train a model**
 -  Encode data using *BERT*
 -  Train a model for *POS*
