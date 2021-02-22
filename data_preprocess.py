@@ -1,16 +1,18 @@
-"""
-NOTE:
-The teacher forgot to multiply the percentages by 100
-"""
+
+import argparse
 from collections import defaultdict
+import os
 
 
-def main(conll):
+def main(conll, outdir):
+
+    if not os.path.isdir(outdir):
+        os.mkdir(outdir)
 
     sequences = []
     tags = defaultdict(int)
 
-    with open("sample.tsv", "w") as fp:
+    with open(f"{outdir}/sample.tsv", "w") as fp:
 
         for line in conll:
 
@@ -38,9 +40,10 @@ def main(conll):
 
         N = sum(tags.values())
         tags = sorted((t, v/N) for t, v in tags.items())
+        #to make the results similar to those in Fig 2 uncomment the following line
         #tags = sorted((t.v/N*100) for t, v in tags.items())
 
-        with open("sample.info", "w") as fp:
+        with open(f"{outdir}/sample.info", "w") as fp:
             fp.write(f"Max sequence length: {max_length}\n")
             fp.write(f"Min sequence length: {min_length}\n")
             fp.write(f"Mean sequence length: {mean_length}\n")
@@ -53,5 +56,12 @@ def main(conll):
 
 if __name__ == "__main__":
 
-    with open("sample.conll") as fp:
-        main(fp)
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--input', type=str, default="sample.conll",
+                        help="input .conll file")
+    parser.add_argument('--outdir', type=str, default="output",
+                        help="output directory")
+    args = parser.parse_args()
+
+    with open(args.input) as fp:
+        main(fp, args.outdir)
