@@ -11,8 +11,6 @@
 -  Encode data using *BERT*
 -  Train a model for *POS*
 - Choose hyperparameters using *wandb*
-========================
-
 
 
 
