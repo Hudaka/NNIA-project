@@ -11,14 +11,14 @@
 -  Encode data using *BERT*
 -  Train a model for *POS*
 - Choose hyperparameters using *wandb*
+========================
 
 
 
 
 
 
-
-#Conll data preprocessing
+Conll data preprocessing
 ========================
 
 Description
