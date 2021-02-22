@@ -1,0 +1,33 @@
+name: Houda_Sandra
+channels:
+  - defaults
+dependencies:
+  - blas==1.0=mkl
+  - libcxx==10.0.0=1
+  - numpy==1.19.2=py38h456fd55_0
+  - mkl_fft==1.2.1=py38ha059aab_0
+  - setuptools==52.0.0=py38hecd8cb5_0
+  - sqlite==3.33.0=hffcf06c_0
+  - pandas==1.2.1=py38hb2f4e1b_0
+  - ncurses==6.2=h0a44026_1
+  - pip==20.3.3=py38hecd8cb5_0
+  - pytz==2021.1=pyhd3eb1b0_0
+  - libffi==3.3=hb1e8313_2
+  - python-dateutil==2.8.1=pyhd3eb1b0_0
+  - mkl_random==1.1.1=py38h959d312_0
+  - wheel==0.36.2=pyhd3eb1b0_0
+  - readline==8.1=h9ed2024_0
+  - xz==5.2.5=h1de35cc_0
+  - tk==8.6.10=hb0a8c7a_0
+  - certifi==2020.12.5=py38hecd8cb5_0
+  - numpy-base==1.19.2=py38hcfb5961_0
+  - mkl-service==2.3.0=py38h9ed2024_0
+  - six==1.15.0=py38hecd8cb5_0
+  - openssl==1.1.1j=h9ed2024_0
+  - ca-certificates==2021.1.19=hecd8cb5_0
+  - mkl==2019.4=233
+  - python==3.8.5=h26836e1_1
+  - zlib==1.2.11=h1de35cc_3
+  - intel-openmp==2019.4=233
+  - libedit==3.1.20191231=h1de35cc_1
+prefix: /Users/houdakaoukab/opt/miniconda3/envs/Houda_Sandra
