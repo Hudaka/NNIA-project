@@ -1,7 +1,7 @@
 # Neural Networks Project
 
 
-* In this project we will be training a model for POS and for encoding the data BERT will be used
+* In this project we will be training a model for POS using BERT and for data encoding 
  
 ## Table of Contents
 1. **Part I: Preprocessing data in CoNLL format**
