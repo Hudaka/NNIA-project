@@ -9,7 +9,7 @@ This is a project of the lecture Neural Networks: Implementation and Application
  
 ## Table of Contents
 - [Conll data preprocessing](https://github.com/Hudaka/NN_project/blob/main/README.md#conll-data-preprocessing)
- - [Description](https://github.com/Hudaka/NN_project/blob/main/README.md#description)
+-- [Description](https://github.com/Hudaka/NN_project/blob/main/README.md#description)
 - Analyse: size , classes, balanced/imbalanced, lenth of sequences
 
 **Part 2: Train a model**
