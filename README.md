@@ -14,8 +14,7 @@ This is a project of the lecture Neural Networks: Implementation and Application
 
 
 
-
-# Conll data preprocessing
+Conll data preprocessing
 ========================
 
 Description
