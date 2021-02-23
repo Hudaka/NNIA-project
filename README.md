@@ -12,6 +12,7 @@ This is a project of the lecture Neural Networks: Implementation and Application
 - [Description](https://github.com/Hudaka/NN_project/blob/main/README.md#description)
 - [Use](https://github.com/Hudaka/NN_project/blob/main/README.md#use)
 - [Requirenments](https://github.com/Hudaka/NN_project/blob/main/README.md#requirement)
+- [Combine multiple files](https://github.com/Hudaka/NNIA-project/blob/main/README.md#combine-multiple-files)
 
 Conll data preprocessing
 ========================
