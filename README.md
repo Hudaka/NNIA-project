@@ -1,7 +1,7 @@
 # NNIA PROJECT WS 2020/21
 
 This is a project of the lecture Neural Networks: Implementation and Application from the University of Saarland. It consists of three parts: 
-1. [x] Preprocessing data in CoNLL format 
+1. 1. [x] Preprocessing data in CoNLL format 
 2. 2. [ ] Train a model 
 3. 3. [ ] Write a report
 
