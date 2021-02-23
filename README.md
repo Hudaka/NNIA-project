@@ -11,8 +11,7 @@ This is a project of the lecture Neural Networks: Implementation and Application
 - [Conll data preprocessing](https://github.com/Hudaka/NN_project/blob/main/README.md#conll-data-preprocessing)
 - [Description](https://github.com/Hudaka/NN_project/blob/main/README.md#description)
 - [Use](https://github.com/Hudaka/NN_project/blob/main/README.md#use)
-
-
+- [Requirenments](https://github.com/Hudaka/NN_project/blob/main/README.md#requirement)
 
 Conll data preprocessing
 ========================
@@ -31,6 +30,6 @@ The program takes two parameters: `--input` and `--outdir`, for the input conll 
 $ python3 data_preprocess.py --input sample.conll --outdir output
 ```
 
-Requirement
+Requirenment
 -----------
 - Python 3.6 or higher
