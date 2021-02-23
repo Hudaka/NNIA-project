@@ -8,7 +8,7 @@ This is a project of the lecture Neural Networks: Implementation and Application
 * In this project we will be training a model for POS using BERT for data encoding 
  
 ## Table of Contents
-**Part 1: Preprocessing data in CoNLL format**
+[Conll data preprocessing](https://github.com/Hudaka/NN_project/blob/main/README.md#conll-data-preprocessing)
 - Extract relevent information (POS tag);
 - Analyse: size , classes, balanced/imbalanced, lenth of sequences
 
