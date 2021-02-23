@@ -33,3 +33,35 @@ $ python3 data_preprocess.py --input sample.conll --outdir output
 Requirenment
 -----------
 - Python 3.6 or higher
+
+
+Combine multiple files
+
+----------
+
+To concatenate multiple CoNLL files use the following command in the terminal. It will concatenate 4 CoNLL files into one file named sample.conll.
+
+ 
+
+For Windows:
+
+ 
+
+```sh
+
+$ type file1.conll file2.conll file3.conll file4.conll > sample.conll
+
+```
+
+ 
+
+For Linux or MAC:
+
+ 
+
+```sh
+
+$ cat file1.conll file2.conll file3.conll file4.conll > sample.conll
+
+```
+
