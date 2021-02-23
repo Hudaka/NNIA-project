@@ -36,8 +36,7 @@ Requirenment
 
 
 Combine multiple files
-
-----------
+-----------
 
 To concatenate multiple CoNLL files use the following command in the terminal. It will concatenate 4 CoNLL files into one file named sample.conll.
 
