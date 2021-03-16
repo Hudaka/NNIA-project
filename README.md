@@ -58,6 +58,7 @@ I had troubles writing my own dataset loading script even after the reading the 
 Unfortunatly I had also troubles using wandb, I keep recieving an ```ImportError: cannot import name 'wandb' from 'transformers' (unknown location)``` error, eventhough I checked my version of transformers and my environment. I keep all my hyperparameters in the file config.py so. I will try fix this problem aswell.
 
 By now I have implemented following seperate python files: 
+
 _config.py_ = In this file we keep the hyper-parameters (max. sequence lenght, number of epochs, training size, test size and learning rate), the paths for the model (model path, training file path) and the specific BERT-based pretained model aswell as the BERT tokenizer.
 
 _dataset.py_ = Here we have the class for the dataset where we tokenize every word input in order to be useable for BERT.. We use [101] as class token and [102] as seperator and also create the attention mask, target POS-Tags, token_type_ids and use padding on inputs so every input has the same lenght. They are returned in a dictionary format using PyTorch tensors. We will need them for our forward() method in our model.
